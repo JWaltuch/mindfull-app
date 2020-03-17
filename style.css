@@ -13,6 +13,7 @@ img {
   justify-content: center;
   align-items: center;
   margin: 30px;
+  border: 1px solid purple;
 }
 
 body {
@@ -21,6 +22,11 @@ body {
 
 /* FORMS */
 
-/* .buttons {
+.buttons {
   flex-direction: row;
-} */
+}
+
+textarea {
+  width: 1000px;
+  height: 100px;
+}
