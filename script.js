@@ -8,5 +8,9 @@ if (document.getElementById('index')) {
 
 function redirect(event, nextPage) {
   event.preventDefault();
-  window.location = `/forms/${nextPage}.html`;
+  if (nextPage === 'index') {
+    window.location = `/${nextPage}.html`;
+  } else {
+    window.location = `/forms/${nextPage}.html`;
+  }
 }
