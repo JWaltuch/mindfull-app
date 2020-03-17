@@ -14,19 +14,42 @@ img {
   align-items: center;
   margin: 30px;
   border: 1px solid purple;
+  background-image: url('https://www.daynalawphotography.com/wp-content/uploads/2019/01/Twilight.gif');
+  min-height: 75vh;
+  width: 90vw;
+  border-radius: 30px;
 }
 
 body {
   background-color: aliceblue;
+  font-family: 'Montserrat', 'Century Gothic';
+  color: purple;
 }
 
 /* FORMS */
 
 .buttons {
+  display: flex;
   flex-direction: row;
+  margin: 5px;
+  justify-content: space-between;
 }
 
 textarea {
   width: 1000px;
-  height: 100px;
+  height: 200px;
+}
+
+button {
+  margin: 8px;
+  padding: 14px 10px 10px 10px;
+  max-height: 50px;
+  background-color: rgb(206, 115, 206);
+  border-radius: 28px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(225, 151, 225);
 }
