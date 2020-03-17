@@ -1,3 +1,5 @@
+/* APP WIDE STYLES */
+
 img {
   width: 300px;
   height: 300px;
@@ -16,3 +18,5 @@ img {
 body {
   background-color: aliceblue;
 }
+
+/* FORMS */
