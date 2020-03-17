@@ -40,6 +40,7 @@ textarea {
   width: 86vw;
   height: 17vw;
   resize: none;
+  font-size: 16px;
 }
 
 button {
