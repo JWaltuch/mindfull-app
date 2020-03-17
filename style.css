@@ -36,8 +36,9 @@ body {
 }
 
 textarea {
-  width: 1000px;
-  height: 200px;
+  width: 86vw;
+  height: 17vw;
+  resize: none;
 }
 
 button {
