@@ -18,6 +18,7 @@ img {
   min-height: 75vh;
   width: 90vw;
   border-radius: 30px;
+  text-align: center;
 }
 
 body {
