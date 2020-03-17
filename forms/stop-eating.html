@@ -7,13 +7,15 @@
   </head>
 
   <body>
-    <form class="page">
+    <div class="page">
       <h1>Are you going to stop eating now? It's okay to stop eating.</h1>
-      <div class="buttons">
-        <button onclick="redirect(event, 'congrats')">Yes, I will stop</button>
-        <button onclick="redirect(event, 'congrats')">No, I will not</button>
+      <div>
+        <form action="/forms/congrats.html" method="get" class="page">
+          <button>Yes, I will stop</button>
+          <button>No, I will not</button>
+        </form>
       </div>
-    </form>
+    </div>
     <script type="text/javascript" src="../script.js"></script>
   </body>
 </html>

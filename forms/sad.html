@@ -7,13 +7,17 @@
   </head>
 
   <body>
-    <form class="page">
+    <div class="page">
       <h1>Are you hungry right now or are you sad?</h1>
-      <div class="buttons">
-        <button onclick="redirect(event, 'journal')">Sad</button>
-        <button onclick="redirect(event, 'stop-eating')">Hungry</button>
+      <div>
+        <form action="/forms/journal.html" method="get" class="page">
+          <button>Sad</button>
+        </form>
+        <form action="/forms/stop-eating.html" method="get" class="page">
+          <button>Hungry</button>
+        </form>
       </div>
-    </form>
+    </div>
     <script type="text/javascript" src="../script.js"></script>
   </body>
 </html>
